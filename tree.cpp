@@ -59,10 +59,3 @@ int tree::CreateTree() {
     }
 }
 
-int main() {
-
-    tree TREE;// создаем экземляр класса tree
-    TREE.CreateTree();// вызываем метод и считываем данные в дерево
-    TREE.SoutTree(TREE.getValue(), 0);// выводим наше дерево
-    return 0;
-}
